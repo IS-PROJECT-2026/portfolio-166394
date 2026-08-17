@@ -1,5 +1,8 @@
 // Site configuration
-const siteConfig = {
+module.exports = {
+  siteName: "Sasha Miriti Portfolio",
   title: "Sasha Miriti Portfolio",
-  theme: "dark"
+  theme: "dark",
+  colorScheme: "light",
+  author: "Sasha Miriti"
 };
