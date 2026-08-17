@@ -97,52 +97,51 @@ You must engineer **three merge conflicts**, each triggered by a **different cau
 
 ### Conflict 1 — Full Chronology
 
-**What cause did you use?** [Name the type of conflict cause from the lecture]
+**What cause did you use?** [Direct content conflict — both branches edited the same line of code differently.]
 
 #### Step 1: Generating the Clash
 *Screenshot showing the merge attempt and the conflict warning.*
 
-[PASTE SCREENSHOT OF ATTEMPTED MERGE / TERMINAL WARNING HERE]
+![Merge attempt warning](evidence/conflict1_merge_attempt.png)
 
-* **Caption:** [Describe which two branches collided and the warning received]
+* **Caption:** [Merging two branches that both edited the same tagline line in index.html triggered Git's CONFLICT (content) warning in the terminal.]
 
 #### Step 2: Inside the Code Editor (Conflict Markers)
 *Screenshot showing the raw, unresolved conflict markers (`<<<<<<< HEAD`, `=======`, `>>>>>>>`) in your editor.*
 
-[PASTE SCREENSHOT OF RAW CONFLICT MARKERS HERE]
+![Conflict markers](evidence/conflict_evidence_1.png)
 
-* **Caption:** [Explain what caused the dispute and your reasoning for the final version]
+* **Caption:** [HEAD had "Future Software Developer | IS Student" while the incoming branch had "Aspiring Software Engineer & IS Student" on the same line. I resolved it by keeping the incoming wording.]
 
 #### Step 3: Resolution & Clean Merge
 *Screenshot of your clean Git history or completed PR showing the conflict was resolved and merged.*
 
-[PASTE SCREENSHOT OF CLEAN RESOLUTION HERE]
+![Clean resolution](evidence/conflict1_resolution.png)
 
-* **Caption:** [Describe the final state after resolution]
+* **Caption:** [PR #12 shows the conflict resolved and merged cleanly into main.]
 
 ---
 
 ### Conflict 2 — Different Cause
 
-**What cause did you use?** [Name the type of conflict cause — must be different from Conflict 1]
+**What cause did you use?** [Modify/delete conflict.]
 
-**Why does this cause trigger a conflict?** [1–2 sentences explaining the mechanism]
+**Why does this cause trigger a conflict?** [ One branch deleted script.js while another branch still had changes to it, so Git couldn't automatically decide whether the file should exist.]
 
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 2 HERE]
-
-* **Caption:** [Brief description of the conflicting branches and file]
+![Conflict 2 markers](evidence/conflict_evidence_2.png)
+* **Caption:** [ Merging origin/main (which removed script.js) into feat/5-projects-section (which still modified it) surfaced the conflict; resolved by keeping script.js with the new changes.]
 
 ---
 
 ### Conflict 3 — Different Cause
 
-**What cause did you use?** [Name the type of conflict cause — must be different from Conflicts 1 and 2]
+**What cause did you use?** [ Add/add conflict.]
 
-**Why does this cause trigger a conflict?** [1–2 sentences explaining the mechanism]
+**Why does this cause trigger a conflict?** [Two branches independently created a new file with the same name but different content, so Git couldn't automatically merge two unrelated "new" files.]
 
-[PASTE SCREENSHOT OF CONFLICT MARKERS FOR CONFLICT 3 HERE]
+![Conflict 3 markers](evidence/conflict_evidence_3.png)
 
-* **Caption:** [Brief description of the conflicting branches and file]
+* **Caption:**  [HEAD's version defined module.exports with siteName/colorScheme/author; origin/main's version defined const siteConfig with title/theme. Resolved by combining the needed fields.]
 
 ---
 ##
