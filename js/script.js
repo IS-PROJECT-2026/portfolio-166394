@@ -5,3 +5,5 @@ document.querySelectorAll('.project').forEach(project => {
     project.classList.toggle('expanded');
   });
 });
+
+console.log("Contact section ready");
