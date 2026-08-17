@@ -60,31 +60,30 @@ Demonstrate your workflow mechanics by embedding your screenshots below.
 ### A. Milestones and Issues
 *Provide a screenshot showing your active milestone(s) and the granular tracking issues linked directly to them.*
 
-![Milestones and Issues](evidence/milestones_issues.png)
+[PASTE YOUR MILESTONE SCREENSHOT DIRECTLY HERE]
 
-* **Caption:** [All three milestones are 100% complete, with every issue linked and closed.]
+* **Caption:** [Write a brief sentence describing your milestones here]
 
 ### B. Project Board
 *Provide a screenshot of your GitHub Project Board with your issues organized dynamically across columns (To Do, In Progress, Done).*
 
-![Project Board](evidence/project_board.png)
+[PASTE YOUR PROJECT BOARD SCREENSHOT DIRECTLY HERE]
 
-* **Caption:** [The board shows all 8 issues moved through Todo, In Progress, and Done as work was completed.]
+* **Caption:** [Write a brief sentence describing your board state here]
 
 ### C. Branching Architecture
 *Provide a screenshot showing your local or remote Git branch list, highlighting your use of conventional, issue-linked naming patterns (e.g., `feat/`, `fix/`, `style/`).*
 
-![Branching Architecture](evidence/branching.png)
+[PASTE YOUR BRANCHING SCREENSHOT DIRECTLY HERE]
 
-* **Caption:** [Branch names follow the feat/, fix/, chore/, and refactor/ naming convention tied to issue numbers.
-]
+* **Caption:** [Write a brief sentence describing your branch list here]
 
 ### D. Pull Requests & Traceability
 *Provide a screenshot of a completed or open Pull Request (PR) on GitHub that clearly shows it is linked to a related development issue.*
 
-![Pull Request Traceability](evidence/pr_traceability.png)
+[PASTE YOUR PULL REQUEST SCREENSHOT DIRECTLY HERE]
 
-* **Caption:** [ PR #15 is merged and clearly references "Closes #5," linking it to its originating issue.]
+* **Caption:** [Write a brief sentence describing your PR and what issue it closes]
 
 ---
 
